@@ -7,12 +7,12 @@ import About from './components/About';
 
 function App() {
   return (
-    <header>
+  <>
       <Navbar/>
-      <Home/>
-      <Services/>
-      <About />
-    </header>
+    <Home/>
+    <Services/>
+    <About />  
+</>
   );
 }
 
